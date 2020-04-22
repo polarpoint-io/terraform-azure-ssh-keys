@@ -1,9 +1,3 @@
-[![Maintained by Polarpoint.io](https://img.shields.io/badge/maintained%21by-polarpoint.io-%235849a6.svg)](https://polarpoint.io/?ref=terraform-azure-ssh-keys)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/polarpoint-io/terraform-azure-ssh-keys)
-
-# terraform-azure-ssh-keys
-Terraform module to create/provision ssh public/private keys
-
 ## Requirements
 
 No requirements.
@@ -31,3 +25,4 @@ No requirements.
 | public\_key\_fingerprint\_md5 | The md5 hash of the public key data in OpenSSH MD5 hash format. Only available if the selected private key format is compatible. |
 | public\_key\_openssh | The public key data in OpenSSH authorized\_keys format, if the selected private key format is compatible. |
 | public\_key\_pem | The public key data in PEM format. |
+
