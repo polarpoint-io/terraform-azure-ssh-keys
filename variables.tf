@@ -8,9 +8,7 @@ variable "rsa_bits" {
   description = "(Optional) When algorithm is \"RSA\", the size of the generated RSA key in bits. Defaults to 2048."
 }
 
-variable "ecdsa_curve" {
-  type        = string
-  description = "(Optional) When algorithm is \"ECDSA\", the name of the elliptic curve to use. May be any one of \"P224\", \"P256\", \"P384\" or \"P521\", with \"P224\" as the default."
+variable "public_ssh_key" {
+  description = "(Optional) A public ssh key"
+  default     = ""
 }
-
-
