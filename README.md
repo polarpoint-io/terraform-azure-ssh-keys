@@ -1,5 +1,7 @@
-[![Maintained by Polarpoint.io](https://img.shields.io/badge/maintained%21by-polarpoint.io-%235849a6.svg)](https://polarpoint.io/?ref=terraform-azure-ssh-keys)
+[![Maintained by Polarpoint.io](https://img.shields.io/badge/maintained%20by-polarpoint.io-%235849a6.svg)](https://polarpoint.io/?ref=terraform-azure-ssh-keys)
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/polarpoint-io/terraform-azure-ssh-keys)
+![Terraform Version](https://img.shields.io/badge/Terraform-0.12.24-blueviolet)
+![AzureRM Version](https://img.shields.io/badge/AzureRM-2.6.0-blue)
 
 # terraform-azure-ssh-keys
 Terraform module to create/provision ssh public/private keys
